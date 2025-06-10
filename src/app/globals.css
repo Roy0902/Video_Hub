@@ -14,7 +14,12 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #0a0a0a;
+    --background: #FFF
+    --body-color: #E4E9F7;
+    --sidebar-color: #FFF;
+    --primary-color: ##111184;
+    --text-color:#777777;
+    --toggle-color:#DDD;
     --foreground: #ededed;
   }
 }
