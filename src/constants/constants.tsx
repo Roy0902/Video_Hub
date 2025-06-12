@@ -1,12 +1,17 @@
-import { SideNavItem } from "@/types/SideNavItem"
-import Image from "next/image"
+import { SideBarItem } from "@/types/SideBarItem"
+import { MdVideoLibrary } from "react-icons/md";
+import { TbNotes } from "react-icons/tb";
+import { FaHistory } from "react-icons/fa";
 
 
-export const sideNavItem: SideNavItem[] = [
-  { icon: <Image src = './public/logo-video-playlist.png' alt='logo-video-playlist' className='w-50 h-50'/>, 
-    title: 'Video Catalog', 
-    route: '/videos' },
-  { title: 'My Videos', route: '/my-videos' },
-  { title: 'Notes', route: '/notes' },
-  { title: 'Progress', route: '/progress' },
+export const sideBarItems: SideBarItem[] = [
+  { icon: <MdVideoLibrary size={35}/>, 
+    title: 'Library', 
+    route: '/library' },
+  { icon: <TbNotes  size={35}/>, 
+    title: 'Notes', 
+    route: '/notes' }, 
+  { icon: <FaHistory  size={35}/>, 
+    title: 'History', 
+    route: '/history' }, 
 ]
