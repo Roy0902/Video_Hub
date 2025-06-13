@@ -1,8 +1,8 @@
 "use client"
 
 import  StoreProvider from "@/store/StoreProvider";
-import SideBarDesktop from "./SideBarDesktop";
-import SideBarMobile from "./SideBarMobile";
+import SideBarDesktop from "../sideBar/SideBarDesktop";
+import SideBarMobile from "../sideBar/SideBarMobile";
 import { useMediaQuery } from 'react-responsive';
 
 const SideBar: React.FC = () =>{
